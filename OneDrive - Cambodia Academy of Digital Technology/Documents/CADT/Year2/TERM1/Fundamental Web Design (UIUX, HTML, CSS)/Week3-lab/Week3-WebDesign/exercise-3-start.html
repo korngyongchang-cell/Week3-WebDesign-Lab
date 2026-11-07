@@ -1,0 +1,123 @@
+``````````````````````````<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+
+      body{
+
+        padding: 0 3em;
+        background-color:white ;
+      }
+  
+      .main {
+        margin: 1em 0;
+        height: calc(100vh - 2em);
+        background: white;
+        display: flex;
+        flex-direction: column;
+        gap:1em;
+      }
+      
+      .top-section{
+        background-color: #1e90ff;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        flex-grow: 0.5;
+        border-radius: 6px;
+        box-shadow: inset 0 -4px #0077ea;
+      }
+
+      .center-section {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        flex-grow: 3;
+        min-height: 0;
+      }
+
+      .bottom-section {
+        background: #4169e1;
+        flex-grow: 0.5;
+        padding: 1em;
+        align-items: center;
+        border-radius: 6px;
+        box-shadow: inset 0 -4px #1d44b8;
+
+      }
+
+      .content{
+
+        background-color: #3cb371;
+        flex-grow: 3;
+        padding: 1em;
+        border-radius: 6px;
+        box-shadow: inset 0 -4px #2f8d59;
+        width: 100%;
+
+      }
+
+    .sidebar {
+        background-color: #ff6347;
+        color: white;
+        flex-grow: 1;
+        padding: 1em;
+        border-radius: 6px;
+        box-shadow: inset 0 -4px #e02200;
+    }
+
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .item {
+        background-color: #2f8d59;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 0 40px;
+        max-width: 100px;
+        height: 50px;
+        border-radius: 6px;
+        box-shadow: inset 0 -4px #226741;
+    }
+ 
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <section class="top-section"><h1>header</h1></section>
+      <section class="center-section">
+
+        <section class="content">
+            <h4>main</h4>
+
+            <div class="items">
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+              <div class="item">item</div>
+            </div>
+    </section>
+
+      <aside class="sidebar">
+        <h4>sidebar</h4>
+      </aside>
+
+    </section>
+      <section class="bottom-section"><h4>footer</h4></section>
+    </div>
+  </body>
+</html>
